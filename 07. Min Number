@@ -1,0 +1,12 @@
+function demo(input){
+    let num = 0;
+    let min = 1000000000;
+    let command = "";
+    let i = 0;
+    while((command = input[i]) != "Stop"){
+        num = Number(command);
+        if(min > num){min = num;}
+        i++;
+    }
+    console.log(min);
+}
