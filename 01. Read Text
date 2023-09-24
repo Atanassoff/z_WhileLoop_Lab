@@ -1,0 +1,8 @@
+function demo(input){
+    let command = "";
+    let i = 0;
+    while((command = input[i]) != "Stop"){
+        console.log(command);
+        i++;
+    }
+}
